@@ -1,3 +1,7 @@
 [submodule "modules/limboai"]
 	path = modules/limboai
 	url = https://github.com/limbonaut/limboai
+[submodule "modules/godotsteam"]
+	path = modules/godotsteam
+	url = https://codeberg.org/anton-makarenko/godotsteam
+	branch = custom-build
