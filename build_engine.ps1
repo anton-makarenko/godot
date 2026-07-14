@@ -1,5 +1,5 @@
 . .\switch_branch.ps1
-. .\copy_steam_api_dll.ps1
+. .\copy_steam_api_lib.ps1
 
 Switch-Branch
 Copy-Steam-Api-Dll
