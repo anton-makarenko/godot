@@ -12,5 +12,5 @@ $CurrentPath = [System.Environment]::GetEnvironmentVariable("Path", "User").Trim
 if ($CurrentPath -split ';' -notcontains $AddPath) {
     $UpdatedPath = "$CurrentPath;$AddPath"
     [System.Environment]::SetEnvironmentVariable("Path", $UpdatedPath, "User")
-    $env:Path = $env:Path.TrimEnd(';') + ";$AddPath"
+    $env:Path = $env:Path.TrimEnd(';') + ";$AddPath;"
 }
