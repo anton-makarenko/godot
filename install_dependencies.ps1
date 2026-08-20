@@ -6,7 +6,7 @@ python -m pip install scons
 $PythonLongVersion = ((python --version) -split " ")[1]
 $PythonVersionDigits = $PythonLongVersion -split "\."
 $PythonShortVersion = "$($PythonVersionDigits[0]).$($PythonVersionDigits[1])"
-$AddPath = "C:\Users\anton\AppData\Local\Python\pythoncore-$PythonShortVersion-64\Scripts"
+$AddPath = "$HOME\AppData\Local\Python\pythoncore-$PythonShortVersion-64\Scripts"
 $CurrentPath = [System.Environment]::GetEnvironmentVariable("Path", "User").TrimEnd(';')
 
 if ($CurrentPath -split ';' -notcontains $AddPath) {
