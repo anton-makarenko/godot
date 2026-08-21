@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo dnf upgrade --refresh
+sudo dnf upgrade --refresh -y
 
 sudo dnf install -y \
   scons \
