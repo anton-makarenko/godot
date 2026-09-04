@@ -1,6 +1,5 @@
 #!/bin/bash
 
-./install_dependencies.sh
 ./switch_branch.sh
 ./copy_steam_api_lib.sh
 
